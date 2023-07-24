@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible">
+    <title>Slider-section</title>
+    <link rel = "stylesheet" href = "./css/fonts.css">
+    <link rel = "stylesheet" href = "./css/reset.css">
+    <link rel = "stylesheet" href = "./css/slider.css">
+    
+</head>
+
+<body class = "body">
+    <div class = "wrapper">
+        <header class = "header">
+                <nav class = "navigation">
+                    <ul class = "navigation_li">
+                        <li id = "rostov-admiral"><a href="#" class = "page active" city = "rostovAdm">Rostov-on-Don, Admiral</a></li>
+                        <li id = "sochi-thieves"><a href="#" class = "page" city = "sochi">Sochi Thieves</a></li>
+                        <li id = "rostov-patriotic"><a href="#" class = "page" city = "rostovPatr">Rostov-on-Don Patriotic</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <main class = "main">
+            <div class = "main-blocks">
+                <div class = "block-criteria main-blocks_size">
+                    <h1 class = "headline">Completed projects --------------</h1>
+                    <p id = 'paragraf'>Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
+                    <div class = "criteria">
+                        <div class = "city">
+                            <h2 class = "criteria-title">City:</h2>
+                            <span id = "city-info" class = "criteria-info">Rostov-on-Don LCD admiral</span>
+                        </div>
+                        <div class = "area">
+                            <h2 class="criteria-title">Apartment area:</h2>
+                            <span id = "area-info" class = "criteria-info">81 m2</span>
+                        </div>
+                        <div class = "time">
+                            <h2 class = "criteria-title">Repair time:</h2>
+                            <span id = "time-info" class = "criteria-info">3.5 months</span>
+                        </div>
+                        <div class = "request">
+                            <h2 class = "criteria-title">Repair Cost:</h2>
+                            <span id = "cost-info" class="criteria-info">Upon request</span>
+                        </div>
+                    </div>
+                    <div class = "slider">
+                        <div id = "slider-arrow-left" class = "arrows" ></div>
+                        <div class = "slider-dot active-dot" index = "0"></div>  
+                        <div class = "slider-dot" index = "1"></div>
+                        <div class = "slider-dot" index = "2"></div>
+                        <div id = "slider-arrow-right" class = "arrows"></div>
+                    </div>
+                </div>
+                <div id = "block-img" class = "main-blocks_size"><img id = "images" class = "active-img" src = "img/rostov/image-1.jpg" alt="rostov"></div>
+            </div>    
+        </main> 
+    
+    </div>
+    <script src = "slider.js"></script> 
+</body>
+</html>
